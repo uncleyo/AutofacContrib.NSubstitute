@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Version>4.0.2</Version>
-    <TargetFrameworks>netcoreapp1.1;net45;net46</TargetFrameworks>
+    <TargetFrameworks>net47;netstandard1.3</TargetFrameworks>
     <Authors>Miguel Madero;Robert Moore;Matt Davies</Authors>
     <NeutralLanguage>en-US</NeutralLanguage>
     <AssemblyTitle>AutofacContrib.NSubstitute</AssemblyTitle>
@@ -19,9 +19,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Autofac" Version="4.5.0" />
-    <PackageReference Include="NSubstitute" Version="2.0.2" />
-
+    <PackageReference Include="Autofac" Version="4.6.1" />
+    <PackageReference Include="Castle.Core" Version="4.1.1" />
+    <PackageReference Include="NSubstitute" Version="2.0.3" />
+    
     <None Include="readme.txt" Pack="true" PackagePath="readme.txt" />
   </ItemGroup>
 </Project>
